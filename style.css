@@ -116,7 +116,7 @@ p {
 }
 
 a {
-    color: #000000;
+    color: #42A5F5;
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 23px;
@@ -168,6 +168,7 @@ small {
     border-bottom: 1px solid #F2F3F5;
     clear: both;
     width: 100%;
+    margin: 20px 20px;
 }
 
 @media(min-width: 720px) {
@@ -204,7 +205,7 @@ small {
 
 /* Site Navigation */
 .site-header {
-    background-color: #EBEBEB;
+    background-color: #34474F;
     padding: 30px 15px 0;
 }
 
@@ -229,10 +230,12 @@ small {
     display: none;
     font-weight: 700;
     line-height: 0;
+    margin: 30px;
 }
 
 .site-nav-mobile li {
     display: inline-block;
+    margin: 30px;
 }
 
 @media(min-width: 768px) {
@@ -259,12 +262,12 @@ small {
 }
 
 .site-nav-link {
-    color: #959595;
+    color: #FFF;
     text-decoration: none;
 }
 
 .site-nav-link.active {
-    color: #2A2A2A;
+    color: #FFAA00;
 }
 
 /* Site Footer */
@@ -332,7 +335,7 @@ small {
 }
 
 .alert-error {
-    background-color: #CCCCCC;
+    background-color: #FC472E;
 }
 
 .alert img {
@@ -367,11 +370,11 @@ small {
 }
 
 .button-primary {
-    background-color: #959595;
+    background-color: #00CF63;
 }
 
 .button-secondary {
-    background-color: #2A2A2A;
+    background-color: #FFAA00;
 }
 
 .button-full {
@@ -441,7 +444,7 @@ input:active,
 input:focus,
 textarea:active,
 textarea:focus {
-    border: 1px solid #CCCCCC;
+    border: 1px solid #FC472E;
     outline: none;
 }
 
@@ -467,12 +470,12 @@ textarea {
   ======================================== */
 
 .site-main {
-    padding: 0 15px;
+    padding: 60px 15px;
     position: relative;
 }
 
 .site-main-background {
-    background-color: #EBEBEB;
+    background-color: #34474F;
     bottom: 0;
     display: block;
     height: 600px;
@@ -484,12 +487,12 @@ textarea {
 }
 
 .site-main-header {
-    margin-bottom: 0;
+    margin-bottom: 60px;
 }
 
 .site-main-header h1,
 .site-main-header p {
-    color: #2A2A2A;
+    color: #FFF;
 }
 
 .section-header {
@@ -500,7 +503,8 @@ textarea {
 
 .order-item {
     display: block;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .item-price {
@@ -517,7 +521,8 @@ textarea {
     clear: both;
     display: block;
     margin-top: 0;
-    padding: 0;
+    margin: 30px;
+    padding: 15px;
 }
 
 .help-box p {
